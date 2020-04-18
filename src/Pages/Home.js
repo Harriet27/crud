@@ -12,7 +12,7 @@ class Home extends Component {
                         Welcome to React
                     </h1>
                     <p className='App-intro'>
-                        To get started, edit <code>src/App.js</code> and save to reload.
+                        Click <a href='/manage-products'>Here</a> to get started.
                     </p>
                 </header>
             </div>

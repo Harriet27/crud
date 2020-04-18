@@ -5,6 +5,7 @@ import { API_URL } from '../Support/API_URL';
 import Swal from 'sweetalert2';
 import { connect } from 'react-redux';
 import { fetchProduct, addProduct, editProduct } from '../Redux/Action';
+import Header from '../Components/Header';
 
 class ManageProduct extends Component {
     state = {
@@ -151,6 +152,7 @@ class ManageProduct extends Component {
     render(){
         return(
             <div style={{fontWeight:'600'}}>
+                <Header/>
                 <Table bordered>
                     <thead>
                         <tr>
