@@ -71,8 +71,7 @@ class ManageProduct extends Component {
     deleteData(id,image){
         Swal.fire({
             title : 'Are you sure you want to delete this product?',
-            text : 'You wont\'t be able to revert this!',
-            icon : 'warning',
+            text : 'You won\'t be able to revert this!',
             showCancelButton : true,
             imageUrl : image,
             confirmButtonColor : '#3085d6',
@@ -151,7 +150,7 @@ class ManageProduct extends Component {
 
     render(){
         return(
-            <div style={{fontWeight:'600'}}>
+            <div>
                 <Header/>
                 <Table bordered>
                     <thead>
