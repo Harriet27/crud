@@ -5,8 +5,8 @@ import Axios from 'axios';
 import { API_URL } from '../Support/API_URL';
 import Swal from 'sweetalert2';
 
-class ManageProduct extends Component {
-    state = { 
+class Manage2 extends Component {
+    state = {
         data : [],
         selectedId : null
     }
@@ -194,4 +194,4 @@ class ManageProduct extends Component {
     }
 }
  
-export default ManageProduct;
+export default Manage2;

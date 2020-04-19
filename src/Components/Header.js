@@ -29,9 +29,14 @@ const Header = (props) => {
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
-            <Link to="/manage-products">
+            <Link to="/manage-1">
                 <NavItem>
-                    <NavLink>Manage Products</NavLink>
+                    <NavLink>With Redux</NavLink>
+                </NavItem>
+            </Link>
+            <Link to="/manage-2">
+                <NavItem>
+                    <NavLink>Without Redux</NavLink>
                 </NavItem>
             </Link>
             {/* <UncontrolledDropdown nav inNavbar>

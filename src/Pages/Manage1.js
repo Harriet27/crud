@@ -7,7 +7,7 @@ import { connect } from 'react-redux';
 import { fetchProduct, addProduct, editProduct } from '../Redux/Action';
 import Header from '../Components/Header';
 
-class ManageProduct extends Component {
+class Manage1 extends Component {
     state = {
         name : '',
         brand : '',
@@ -198,4 +198,4 @@ const mapStateToProps = (state) => {
     }
 }
 
-export default connect (mapStateToProps, { fetchProduct, addProduct, editProduct }) (ManageProduct);
+export default connect (mapStateToProps, { fetchProduct, addProduct, editProduct }) (Manage1);
