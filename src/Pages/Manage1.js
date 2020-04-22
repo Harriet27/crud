@@ -6,6 +6,7 @@ import Swal from 'sweetalert2';
 import { connect } from 'react-redux';
 import { fetchProduct, addProduct, editProduct } from '../Redux/Action';
 import Header from '../Components/Header';
+// import Child from '../Components/child';
 
 class Manage1 extends Component {
     state = {
@@ -168,6 +169,7 @@ class Manage1 extends Component {
                     </tbody>
                     <tfoot>
                         <tr>
+                            {/* <Child name={this.state.name} /> */}
                             <td></td>
                             <td>
                                 <input style={{width:'100%'}} type='text' placeholder='Name' name='name' value={this.state.name} onChange={this.handleInput}/>

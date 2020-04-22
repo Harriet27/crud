@@ -39,6 +39,11 @@ const Header = (props) => {
                     <NavLink>Without Redux</NavLink>
                 </NavItem>
             </Link>
+            <Link to="/manage-3">
+                <NavItem>
+                    <NavLink>With Hooks</NavLink>
+                </NavItem>
+            </Link>
             {/* <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
                 Options

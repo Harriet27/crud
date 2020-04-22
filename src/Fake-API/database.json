@@ -70,6 +70,20 @@
       "price": 5000000,
       "image": "https://cdn.shopify.com/s/files/1/0049/9112/products/793b355e561f3c63cb0e705f46a871fd_1200x.jpg?v=1564594296",
       "id": 10
+    },
+    {
+      "name": "dsdssdsds",
+      "brand": "",
+      "price": 0,
+      "image": "",
+      "id": 11
+    },
+    {
+      "name": "adasdasad",
+      "brand": "dssdsdsdsds",
+      "price": 0,
+      "image": "",
+      "id": 12
     }
   ]
 }

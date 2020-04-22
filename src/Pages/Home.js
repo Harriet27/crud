@@ -12,9 +12,11 @@ class Home extends Component {
                         Welcome to React
                     </h1>
                     <p className='App-intro'>
-                        Click <a href='/manage-1'>Here</a> to go to manage page with redux.
+                        Click <a href='/manage-1'>Here</a> to go to manage page With Redux.
                         <br/>
-                        Click <a href='/manage-2'>Here</a> to go to manage page without redux.
+                        Click <a href='/manage-2'>Here</a> to go to manage page Without Redux.
+                        <br/>
+                        Click <a href='/manage-3'>Here</a> to go to manage page using Hooks.
                     </p>
                 </header>
             </div>
